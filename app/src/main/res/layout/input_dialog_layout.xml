@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:hint="Name"
+        android:inputType="textCapSentences"/>
+
+
+    <EditText
+        android:id="@+id/absen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Absen"
+        android:backgroundTint="@color/yellow"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/kelas"
+        android:layout_marginVertical="8dp"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:text="Input" />
+
+</LinearLayout>

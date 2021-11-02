@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AbsensiApp</string>
+    <array name="kelas">
+        <item>10 RPL 1</item>
+        <item>10 RPL 2</item>
+        <item>11 RPL 1</item>
+        <item>11 RPL 2</item>
+        <item>12 RPL 1</item>
+        <item>12 RPL 2</item>
+    </array>
+</resources>
